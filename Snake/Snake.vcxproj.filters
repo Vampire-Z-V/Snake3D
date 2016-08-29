@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{bb3a14c8-cf5e-4e48-9597-8e27d604a977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Meau">
+      <UniqueIdentifier>{22c460a7-08ce-4529-8bf6-061a558ad81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame">
+      <UniqueIdentifier>{9b83ca3d-0e45-409d-9ca2-a0ab38a3f075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base">
+      <UniqueIdentifier>{3f257df1-4d97-4f78-98bd-0ef0dc41d38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork">
+      <UniqueIdentifier>{442e3895-b8e2-423b-b65f-665205b7ca88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork\Base">
+      <UniqueIdentifier>{c213b288-ce39-42db-918a-d7196dc7a0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork\Utility">
+      <UniqueIdentifier>{2d378222-8ea9-430a-ace1-3238eb5cbff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameObject">
+      <UniqueIdentifier>{f0f97a90-bb1a-4fab-8c3f-127301ba967f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameLogic">
+      <UniqueIdentifier>{115ccd0a-545e-41f3-94c2-f4881d512f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base\Timer">
+      <UniqueIdentifier>{18f559ea-3a88-4eb8-abb2-78e6676b57e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base\Window">
+      <UniqueIdentifier>{55ea2cee-1a39-4048-8091-6188951f938f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base\Render">
+      <UniqueIdentifier>{2a55e888-729a-4c12-ad0f-61d252e106f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameObject\Snake">
+      <UniqueIdentifier>{fecc98eb-5684-4c21-9f8d-0194d64d9fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base\Camera">
+      <UniqueIdentifier>{10201f04-53f7-4643-bc40-c31fde20bfc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameObject\Fruit">
+      <UniqueIdentifier>{bd884ba9-2755-4af7-bf27-3ed790f0de45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameObject\Wall">
+      <UniqueIdentifier>{62a7df5c-f05f-4f7a-a7a3-10b50829d25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Base\Vertex">
+      <UniqueIdentifier>{90939783-a2c2-4c68-a4ff-f98c2c9cf66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameWork\FX">
+      <UniqueIdentifier>{3010a55c-e2d3-4747-a861-9c8217b54662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Rank">
+      <UniqueIdentifier>{ed76965d-7caa-4307-9a6d-6ad9fc88b319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\MainGame\GameObject\Wall\Map">
+      <UniqueIdentifier>{c6a06698-44ac-40d6-ba8c-3603cabc48a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11effect.h">
+      <Filter>Source Files\FrameWork\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Source Files\FrameWork\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Source Files\FrameWork\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtility.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimer.h">
+      <Filter>Source Files\Game\Base\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="_BaseWindow.h">
+      <Filter>Source Files\Game\Base\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.h">
+      <Filter>Source Files\Game\Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IMenu.h">
+      <Filter>Source Files\Game\Meau</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Source Files\Game\Base\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="IMainGame.h">
+      <Filter>Source Files\Game\MainGame\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="_BaseGameObject.h">
+      <Filter>Source Files\Game\MainGame\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Source Files\Game\MainGame\GameObject\Fruit</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Source Files\Game\MainGame\GameObject\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Source Files\Game\MainGame\GameObject\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Source Files\Game\MainGame\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayouts.h">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Source Files\Game\Base\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="IMap.h">
+      <Filter>Source Files\Game\MainGame\GameObject\Wall\Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Snake.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resoure\Icon\Snake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files\FrameWork\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Source Files\FrameWork\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ITimer.cpp">
+      <Filter>Source Files\Game\Base\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="_BaseWindow.cpp">
+      <Filter>Source Files\Game\Base\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="IRender.cpp">
+      <Filter>Source Files\Game\Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="IMenu.cpp">
+      <Filter>Source Files\Game\Meau</Filter>
+    </ClCompile>
+    <ClCompile Include="ICamera.cpp">
+      <Filter>Source Files\Game\Base\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="IMainGame.cpp">
+      <Filter>Source Files\Game\MainGame\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="_BaseGameObject.cpp">
+      <Filter>Source Files\Game\MainGame\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>Source Files\Game\MainGame\GameObject\Fruit</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Game\MainGame\GameObject\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Game\MainGame\GameObject\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayouts.cpp">
+      <Filter>Source Files\FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="IMap.cpp">
+      <Filter>Source Files\Game\MainGame\GameObject\Wall\Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FX\Effect.fx">
+      <Filter>Source Files\FrameWork\FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\LightHelper.fx">
+      <Filter>Source Files\FrameWork\FX</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
